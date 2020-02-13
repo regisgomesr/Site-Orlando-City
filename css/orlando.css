@@ -131,7 +131,7 @@ header .row {
 }
 
 #menu {
-    margin: 20px 0;
+    margin: 12px 0;
 }
 
 #menu li {
@@ -144,7 +144,7 @@ header .row {
 }
 
 #menu li.search input {
-    background-color: #5C2D90;
+    background-color: #9b59b6;
     color: #FFF;
     border: none;
     height: 30px;
@@ -153,6 +153,19 @@ header .row {
 
 #menu li.search ::-webkit-input-placeholder {
     color: #FFF;
+}
+
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+#menu li.search i {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #menu li a {
