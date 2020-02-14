@@ -208,3 +208,46 @@ header .row {
     font-size: 32px;
     display: block;
 }
+
+#news {
+    position: relative;
+    top: -110px;
+}
+
+#news h2 {
+    color: #5E2899;
+    font-family: 'Open-Sans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#news hr {
+    border: #FDE192 solid 4px;
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+#news .thumbnails {
+    margin-top: 50px;
+}
+
+#news .thumbnails img {
+    margin-right: 20px;
+}
+
+#news .thumbnails h3 {
+    color: #5E299A;
+    font-size: 18px;
+    font-family: 'Open-Sans';
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#news .thumbnails time {
+    color: #A7A7A7;
+    font-size: 18px;
+    font-family: 'Open-Sans';
+}
