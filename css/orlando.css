@@ -270,3 +270,52 @@ header .row {
     text-transform: uppercase;
     display: block;
 }
+
+#call-to-action {
+    position: relative;
+    margin-top: 105px;
+}
+
+#call-to-action h2 {
+    color: #5E2899;
+    font-family: 'Open-Sans-Light';
+    font-size: 48px;
+    text-align: center;
+}
+
+#call-to-action hr {
+    border: #FDE192 solid 4px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#call-to-action p {
+    text-align: center;
+    margin-top: 60px;;
+}
+
+#call-to-action .btn {
+    min-width: 164px;
+    height: 44px;
+    line-height: 31px;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+#call-to-action .btn-roxo {
+    color: #FFF;
+    background-color: #5E2899;
+    border-color: #5E2899;
+    margin-right: 70px;
+}
+
+#call-to-action .btn-amarelo {
+    color: #000;
+    background-color: #FDE192;
+    border-color: #FDE192;
+}
+
+#call-to-action .row-max-400 {
+    margin: 0 auto;
+    max-width: 400px;
+}
