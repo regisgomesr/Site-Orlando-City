@@ -233,10 +233,6 @@ header .row {
     margin-top: 50px;
 }
 
-#news .thumbnails img {
-    margin-right: 20px;
-}
-
 #news .thumbnails h3 {
     color: #5E299A;
     font-size: 18px;
@@ -250,4 +246,27 @@ header .row {
     color: #A7A7A7;
     font-size: 18px;
     font-family: 'Open-Sans';
+}
+
+#estatisticas {
+    background-color: #5E299A;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+#estatisticas p {
+    color: #FDE192;
+    font-family: 'Open-Sans-Light';
+    font-size: 64px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#estatisticas small {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Open-Sans-Light';
+    text-transform: uppercase;
+    display: block;
 }
