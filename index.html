@@ -4,6 +4,8 @@
         <meta charset='utf-8'>
         <title></title>
         <link rel='stylesheet' href='lib/bootstrap/dist/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='lib/owl-carousel/owl.carousel.css'>
+        <link rel='stylesheet' href='lib/owl-carousel/owl.theme.css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel='stylesheet' href='css/orlando.css'>
     </head>
@@ -87,36 +89,138 @@
                     <h2>Latest News</h2>
                     <hr>
                 </div>
-                <div class='row thumbnails'>
-                    <div class='col-md-3'>
 
-                        <img src='./img/noticia-thumb.jpg' alt='Noticia'>
-                        <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-                        <time>December 14, 2019</time>
+                <div class='row thumbnails owl-carousel owl-theme'>
 
-                    </div>
+                    <div class='items'>
 
-                    <div class='col-md-3'>
-                        
-                        <img src='./img/noticia-thumb.jpg' alt='Noticia'>
-                        <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-                        <time>December 14, 2019</time>
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
 
                     </div>
 
-                    <div class='col-md-3'>
-                        
-                        <img src='./img/noticia-thumb.jpg' alt='Noticia'>
-                        <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-                        <time>December 14, 2019</time>
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
 
                     </div>
 
-                    <div class='col-md-3'>
-                        
-                        <img src='./img/noticia-thumb.jpg' alt='Noticia'>
-                        <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
-                        <time>December 14, 2019</time>
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
+
+                    </div>
+
+                    <div class='items'>
+
+                        <div class='item-inner'>
+
+                            <img src='./img/noticia-thumb.jpg' alt='Noticia'>
+                            <h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
+                            <time>December 14, 2019</time>
+
+                        </div>
 
                     </div>
 
@@ -295,6 +399,7 @@
         </footer>
 
         <script src='lib/jquery/dist/jquery.min.js'></script>
+        <script src='lib/owl-carousel/owl.carousel.min.js'></script>
         <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
 
         <script>
@@ -318,6 +423,27 @@
                     $('li.search').removeClass('ativo');
 
                 });
+
+                $('.thumbnails').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    navText: ['Anterior', 'Próximo'],
+                    responsive: {
+                        0 : {
+                            items : 1
+                        },
+                        480 : {
+                            items : 3
+                        },
+                        768 : {
+                            items : 4
+                        },
+                        1200 : {
+                            items : 5
+                        }
+                    }
+                })
 
             });
 
