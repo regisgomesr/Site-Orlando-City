@@ -77,7 +77,7 @@
         <section>
 
                 <div id='banner'>
-                    <h1>Orlando City<small>Orlando City Soccer Club</small></h1>
+                    <h1>Orlando City</h1><small>Orlando City Soccer Club</small>
                 </div>
 
             <div id='news' class='container'>
@@ -294,6 +294,21 @@
 
         <script src='lib/jquery/dist/jquery.min.js'></script>
         <script src='lib/bootstrap/dist/js/bootstrap.min.js'></script>
+
+        <script>
+
+            $(document).ready(function(){
+
+                $('#logotipo').on('mouseover', function(){
+                    
+                    $('#banner h1').addClass('efeito');
+
+                }).on('mouseout', function(){
+                    $('#banner h1').removeClass('efeito');
+                });
+            });
+
+        </script>
     </body>
 
 </html>
