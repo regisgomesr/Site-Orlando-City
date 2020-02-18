@@ -150,6 +150,12 @@ header .row {
 
 #menu li.search {
     width: 182px;
+    transition-timing-function: cubic-bezier(1,-.91,.91,1);
+    transition: 1s;
+}
+
+#menu li.search.ativo {
+    width: 300px;
 }
 
 #menu li.search input {
@@ -158,6 +164,10 @@ header .row {
     border: none;
     height: 30px;
     line-height: 30px;
+}
+
+#menu li.search.ativo input {
+    width: 300px;
 }
 
 #menu li.search ::-webkit-input-placeholder {
@@ -170,6 +180,11 @@ header .row {
     position: absolute;
     right: 3px;
     top: 1px;
+    transition: 1s;
+}
+
+#menu li.search.ativo button {
+    right: 15px;
 }
 
 #menu li.search i {
