@@ -236,8 +236,7 @@ header .row {
 
 #news {
     position: relative;
-    top: -110px;
-    margin-top: 200px;
+    margin-top: 0px;
 }
 
 #news h2 {
@@ -308,6 +307,7 @@ header .row {
 #call-to-action {
     position: relative;
     margin-top: 105px;
+    margin-bottom: 100px;
 }
 
 #call-to-action .text-videos{
@@ -534,4 +534,20 @@ video {
     width: 60%;
     height: 40%;
     margin: 0 auto;
+    display: block;
+}
+
+#call-to-action .row-video {
+    display: block;
+}
+
+#call-to-action .row-video input {
+    margin-top: 50px;
+    display: block;
+    margin: 20px auto;
+}
+
+#call-to-action .row-video button {
+    display: block;
+    margin: 20px auto;
 }
