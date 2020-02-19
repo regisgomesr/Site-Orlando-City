@@ -237,6 +237,7 @@ header .row {
 #news {
     position: relative;
     top: -110px;
+    margin-top: 200px;
 }
 
 #news h2 {
@@ -307,6 +308,10 @@ header .row {
 #call-to-action {
     position: relative;
     margin-top: 105px;
+}
+
+#call-to-action .text-videos{
+    margin-bottom: 30px;
 }
 
 #call-to-action h2 {
@@ -522,4 +527,11 @@ footer .list-socials a {
 footer .list-socials i {
     font-size: 16px;
     margin: 7px auto;
+}
+
+
+video {
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
 }
