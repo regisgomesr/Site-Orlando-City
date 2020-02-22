@@ -25,6 +25,7 @@
         top: 2px;
         background: none;
         border: none;
+        display: block;
     }
 
     #btn-bars {
@@ -33,6 +34,25 @@
 
     #btn-search {
         right: 2px;
+    }
+
+    #banner {
+        height: 317px;
+        background-size: cover;
+        background-position: 0;
+        text-align: center;
+    }
+
+    #banner h1 {
+        top: 177px;
+        font-size: 48px;
+        margin-left: 0;
+    }
+
+    #banner small {
+        font-size: 22px;
+        margin-left: 0;
+        top: 170px;
     }
 
 }
