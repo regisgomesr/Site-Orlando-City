@@ -19,24 +19,19 @@ $(document).ready(function(){
     });
 
     $('.thumbnails').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        navText: ['Anterior', 'Próximo'],
-        responsive: {
-            0 : {
-                item : 1
-            },
-            480 : {
-                item : 3
-            },
-            768 : {
-                item : 4
-            },
-            1200 : {
-                item : 4
-            }
-        }
-    })
+       
+        items: 4
+
+    });
+
+    var owl = $('.thumbnails').data('owlCarousel');
+
+    $('#btn-news-prev').on('click', function(){
+        owl.prev();
+    });
+
+    $('#btn-news-next').on('click', function(){
+        owl.next();
+    });
 
 });

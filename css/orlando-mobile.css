@@ -1,5 +1,5 @@
 /* Tamanho padrao para tablets */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
 
     .header-black ul {
         display: none;
@@ -53,6 +53,51 @@
         font-size: 22px;
         margin-left: 0;
         top: 170px;
+    }
+
+    #news h2 {
+        font-size: 32px;
+        margin-top: 51px;
+    }
+
+    #news hr {
+        border-width: 2px;
+    }
+
+    #news .thumbnails {
+        margin-top: 30px;
+    }
+
+    .owl-carousel .owl-wrapper-outer {
+        margin-left: 15px;
+    }
+
+    .thumbnails {
+        text-align: center;
+    }
+
+    #news .thumbnails .item-inner img {
+        width: 80%;
+    }
+
+    #btn-news-prev, #btn-news-next {
+        background: none;
+        border: none;
+        color: #5E2699;
+        font-size: 48px;
+        display: block;
+        position: absolute;
+        top: 98px;
+        z-index: 4;
+        outline: 0;
+    }
+
+    #btn-news-prev {
+        left: 10px;
+    }
+
+    #btn-news-next {
+        right: 10px;
     }
 
 }
