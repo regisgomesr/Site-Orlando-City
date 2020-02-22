@@ -1,5 +1,5 @@
 /* Tamanho padrao para tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
 
     .header-black ul {
         display: none;
@@ -9,5 +9,30 @@
 
 /* Tamanho padra para smartphones */
 @media only screen and (max-width: 480px) {
+
+    .header-black ul, #menu {
+        display: none;
+    }
+
+    #logotipo {
+        left: 37%;
+    }
+
+    #btn-bars, #btn-search {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 2px;
+        background: none;
+        border: none;
+    }
+
+    #btn-bars {
+        left: 2px;
+    }
+
+    #btn-search {
+        right: 2px;
+    }
 
 }
