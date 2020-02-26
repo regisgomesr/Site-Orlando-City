@@ -160,4 +160,57 @@
         margin-top: 60px;
     }
 
+    footer .row-cinza-claro {
+        height: 157px;
+    }
+
+    footer .row-cinza-escuro {
+    
+    }
+
+    footer .logo-footer {
+        display: none;
+    }
+
+    footer .col-popular-post {
+        display: none;
+    }
+
+    footer .col-links {
+        display: none;
+    }
+
+    footer .col-get-in-touch h4 {
+        display: none;
+    }
+
+    footer .col-get-in-touch address {
+        display: none;
+    }
+
+    footer .col-get-in-touch p {
+        display: none;
+    }
+
+    footer .text-footer-escuro p {
+        font-size: 10px;
+        line-height: 0;
+    }
+
+    footer .row {
+        margin: 0;
+    }
+
+    footer .row p {
+        line-height: 20px;
+        text-align: center;
+        margin-right: 24px;
+    }
+
+    footer .row p:first-child {
+        margin-top: 10px;
+    }
+
+    footer 
+
 }
