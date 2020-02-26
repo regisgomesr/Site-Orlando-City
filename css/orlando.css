@@ -359,7 +359,7 @@ footer {
 }
 
 footer .row-cinza-claro {
-    height: 200px;
+    height: 240px;
     background-color: #171F26;
 }
 
@@ -528,3 +528,6 @@ footer .list-socials i {
     display: none;
 }
 
+footer .row-fluid {
+    display: none;
+}
