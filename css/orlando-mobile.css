@@ -100,4 +100,64 @@
         right: 10px;
     }
 
+    #estatisticas {
+        height: inherit;
+    }
+
+    #estatisticas p {
+        margin-top: 25px;
+    }
+
+    #estatisticas small {
+        margin-bottom: 25px;
+    }
+
+    #call-to-action {
+        margin-top: 60px;
+    }
+
+    #call-to-action h2 {
+        font-size: 32px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    #call-to-action hr {
+        border: #FDE192 solid 2px;
+    }
+
+    #call-to-action p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    #call-to-action .btn {
+        min-width: 138px;
+    }
+
+    #call-to-action .btn-roxo {
+        float: left;
+        margin-right: 10px;
+    }
+
+    #call-to-action .btn-amarelo {
+        float: right;
+    }
+
+    #call-to-action .col-xs-6 {
+        padding: 0;
+    }
+
+    #call-to-action .row-max-400 {
+        max-width: 288px;
+    }
+
+    footer {
+        margin-top: 60px;
+    }
+
 }
