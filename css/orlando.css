@@ -531,3 +531,7 @@ footer .list-socials i {
 footer .row-fluid {
     display: none;
 }
+
+.page-up {
+    display: none!important;
+}
